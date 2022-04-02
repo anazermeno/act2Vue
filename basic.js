@@ -35,7 +35,7 @@ var app3 = new Vue({
 
 function GetRandomImage(){
     let picturePath = ''
-    let imageBank = ['https://lauraemprende.com/wp-content/uploads/2020/01/joel-muniz-XqXJJhK-c08-unsplash-1080x675.jpg','https://static2.abc.es/media/bienestar/2020/05/26/natacion-koQB--620x349@abc.jpg','https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/styles/bi_570/public/media/image/2021/02/peliculas-online-gratis-2245511.jpg?itok=8ezMNcJY','https://musicopolix.com/blog/wp-content/uploads/2021/04/que-ukelele-comprar-tocando.jpg','https://okdiario.com/img/2019/02/14/afinar-voz-655x368.jpg']
+    let imageBank = ['http://www.balneariosmexico.com/IMG/arton3388.jpg','https://visitapuertovallarta.com.mx/uploads/static/visit-puerto-vallarta.jpg','https://inmobiliare.com/himalaya/wp-content/uploads/2020/07/oaxaca_1.jpg','https://www.mexicodesconocido.com.mx/wp-content/uploads/2010/07/Catedral-_Plaza-de-armas-scaled.jpg','https://topadventure.com/__export/1616006885906/sites/laverdad/img/2021/03/17/top_5_de_lugares_para_conocer_en_michoacanx_crop1616004865125.jpg_328301815.jpg','https://www.cancunadventure.net/images/puntacancun-airview.jpg']
     picturePath += imageBank[Math.floor(Math.random()* imageBank.length)]
     return picturePath
 }
